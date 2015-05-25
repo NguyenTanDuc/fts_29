@@ -1,0 +1,16 @@
+<tr id="cate_<%= category.id %>">
+  <td><%= category.id %></td>
+  <td><%= category.name %></td>
+  <td></td>
+  <td><%= category.max_question %></td>
+  <td><%= category.max_time %></td>
+  <td class="col-md-4" data-no-turbolink='true'>
+    <%= link_to t(:link_edit), edit_admin_category_path(category.id),
+                class: "btn btn-primary col-md-3" %>
+    <%= link_to t(:link_delete), admin_category_path(category.id), remote: true, method: :delete,
+                data: {confirm: t(:delete_warning)},
+                class: "btn btn-primary col-md-3 col-md-offset-1" %>
+    <%= link_to t(:exam_start), root_path,
+                class: "btn btn-primary col-md-offset-1 col-md-3" %>
+  </td>
+</tr>

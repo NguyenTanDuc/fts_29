@@ -1,0 +1,10 @@
+<tr>
+  <td><%= category.id %></td>
+  <td><%= category.name %></td>
+  <td></td>
+  <td><%= category.max_question %></td>
+  <td><%= category.max_time %></td>
+  <td data-no-turbolink="true">
+    <%= link_to t(:exam_start), root_path, class: "btn btn-primary" %>
+  </td>
+</tr>

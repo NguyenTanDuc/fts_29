@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <h1><%= t :categories %></h1>    
+    <p><%= link_to t(:add_new_category), new_admin_category_path, class: "btn btn-success" %></p>
+    <table class="table table-bordered">
+      <tr>
+        <th><%= t :id %></th>
+        <th><%= t :category_name %></th>
+        <th><%= t :learning_process %></th>
+        <th><%= t :max_question %></th>
+        <th><%= t :max_time %></th>
+        <th><%= t :action %></th>
+      </tr>
+      <%= render @categories %>
+    </table>
+  </div>
+</div>

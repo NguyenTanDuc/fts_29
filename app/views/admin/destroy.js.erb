@@ -1,0 +1,6 @@
+<% if @category.errors.any? %>
+  alert("Delete failed");
+<% else %>
+  $(".alert").html("<%= t(:delete_success) %>")
+  $("#cate_<%= @category.id %>").fadeOut(1500);
+<% end %>
