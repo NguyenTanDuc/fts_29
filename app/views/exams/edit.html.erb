@@ -1,5 +1,6 @@
+<%= javascript_include_tag "exam_warning.js"%>
 <h1><%= t :exam %></h1>
-<h2 id="countdown" value="<%= @exam.time_countdown %>"></h2>
+<h2 name="countdown" value="<%= @exam.time_countdown %>"></h2>
 <%= form_for [@category, @exam] do |f| %>
   <%= render "shared/error_messages", object: f.object %>
   <ul class="bxslider">

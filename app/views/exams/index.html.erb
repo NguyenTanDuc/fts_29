@@ -1,4 +1,7 @@
 <div class="container">
+  <div class="loading">
+    <%= image_tag("ajax-loader.gif", alt: "Loading...") %>
+  </div>
   <%= form_for @exam do |f| %>
     <div class="col-md-5 col-md-offset-2">
       <%= f.collection_select(:category_id, @categories, :id,

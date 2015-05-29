@@ -10,4 +10,11 @@
       <%= link_to exam.testing? ? t(:exam_continue) : t(:exam_start), edit_exam_path(exam), class: "btn btn-primary" %>
     <% end %>
   </td>
+  <tr>
+    <td>
+      <% if exam.testing? %>
+        <h2 id="<%= exam.id %>" name="countdown" value="<%= exam.time_countdown %>"></h2>
+      <% end %>
+    </td>
+  </tr>
 </tr>

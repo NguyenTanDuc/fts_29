@@ -2,7 +2,7 @@
   <div class="container">
     <%= link_to t(:fts), root_path, id: "logo" %>
     <nav>
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right" data-no-turbolink="true">
         <li><%= link_to t(:home), root_path %></li>
           <% if user_signed_in? && current_user.admin? %>
             <li><%= link_to t(:categories), admin_categories_path %></li>
