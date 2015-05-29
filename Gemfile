@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.1'
-gem 'devise'
+gem 'devise', '3.4.1'
 gem 'cancancan'
 gem 'ransack'
 gem 'rails_config'
