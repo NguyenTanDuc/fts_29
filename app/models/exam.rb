@@ -10,6 +10,7 @@ class Exam < ActiveRecord::Base
   accepts_nested_attributes_for :results, allow_destroy: true
 
   scope :order_created, ->{order created_at: :desc}
+  scope :other_exam, ->exam_id{where.not id: exam_id}
 
   enum status: [:created, :testing, :completed]
 
@@ -27,6 +28,13 @@ class Exam < ActiveRecord::Base
 
   def time_countdown
     max_time - execute_time
+  end
+
+  def update_status_completed
+    if time_up?
+      self.update_status :completed
+      ResultMailer.result_exam(self).deliver_now
+    end
   end
   
   private
@@ -46,12 +54,7 @@ class Exam < ActiveRecord::Base
     @questions.each {|question| results.create question: question}
   end
 
-  def update_status_completed
-    if time_up?
-      self.update_status :completed
-      ResultMailer.result_exam(self).deliver_now
-    end
-  end
+
 
   def execute_time
     (Time.zone.now - self.start_at).to_i

@@ -105,3 +105,4 @@ en:
   All_user: "All Users"
   set_admin: "Set Admin"
   admin: "admin"
+  only_test: "Access is denied. Only once test at a time"

@@ -1,5 +1,6 @@
 class ExamsController < ApplicationController
   load_and_authorize_resource
+  before_action :check_only_one_test, only: :edit
 
   def index
     @exam = Exam.new
@@ -10,7 +11,7 @@ class ExamsController < ApplicationController
   def show
   end
 
-  def create    
+  def create
     @exam.user = current_user
     if @exam.save
       flash[:success] = t :create_success
@@ -29,17 +30,31 @@ class ExamsController < ApplicationController
     end
   end
 
-  def update
-    if @exam.update_attributes exam_params
-      flash[:success] = t :update_success      
+  def update    
+    if !params[:complete].nil?
+      @exam.update_status_completed
+      respond_to do |format|
+        format.js
+      end 
     else
-      flash[:danger] = t :update_fail
-    end
-    redirect_to root_path
+      if @exam.update_attributes exam_params
+        flash[:success] = t :update_success      
+      else
+        flash[:danger] = t :update_fail
+      end
+      redirect_to root_path
+    end    
   end
 
   private  
   def exam_params
     params.require(:exam).permit :category_id, results_attributes: [:id, :answer_id]
+  end
+
+  def check_only_one_test
+    if current_user.exams.other_exam(@exam.id).testing.count > 0
+      flash[:danger] = t :only_test
+      redirect_to root_path
+    end
   end
 end

@@ -15,11 +15,22 @@
 //= require bootstrap
 //= require turbolinks
 //= require application_jquery
-//= require_tree .
 
 $(document).ready(function(){
-  $(function(){
-    var seconds = $("h2[id=countdown]").attr("value");
+  $(document).bind("ajaxSend", function(){
+    $("body").addClass("loading-background")
+    $("a,input").click(function(event){
+      event.preventDefault();
+    });
+    $(".loading").fadeIn(1500);
+    }).bind("ajaxComplete", function(){
+      $("body").removeClass("loading-background")
+      $(".loading").fadeOut(2000);
+  }); 
+  $(function(){    
+    if($("h2[name=countdown]").attr("value") != null){
+      var seconds = $("h2[name=countdown]").attr("value");
+    }
     var interval = setInterval(function(){
       var hours = Math.floor(seconds/3600);
       var minutesLeft = Math.floor((seconds) - (hours*3600));
@@ -34,13 +45,26 @@ $(document).ready(function(){
       if(remainingSeconds < 10){
         remainingSeconds = "0" + remainingSeconds; 
       }     
-      $("h2[id=countdown]").html(hours + " : " + minutes + " : " + remainingSeconds);
+      $("h2[name=countdown]").html(hours + " : " + minutes + " : " + remainingSeconds);
       if(seconds <= 0){
         clearInterval(interval);
-        $("h2[id=countdown]").html("Completed");
+        $("h2[name=countdown]").html("Completed");
         alert("Time up");
-        $("input[name=btn_submit]").click();
-      }else{
+        if($("input[name=btn_submit]").length){
+          $("input[name=btn_submit]").click();
+        }
+        else{          
+          var exam_id = $("h2[name=countdown]").attr("id");
+          $.ajax({
+            url : "exams/" + exam_id,
+            type : "patch",
+            data : "complete=" + exam_id              
+          }).done(function(){
+            location.reload();
+          });        
+        }          
+      }
+      else{
         seconds--;
       }
     }, 1000);
