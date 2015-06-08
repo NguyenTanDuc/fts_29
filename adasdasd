@@ -1,0 +1,505 @@
+=> [32m#<ActionController::TestResponse:0x00000003afacc8[0m
+ @blank[32m=[0m[1;36mfalse[0m,
+ @cache_control[32m=[0m{},
+ @charset[32m=[0m[31m[1;31m"[0m[31mutf-8[1;31m"[0m[31m[0m,
+ @committed[32m=[0m[1;36mfalse[0m,
+ @content_type[32m=[0m
+  [32m#<Mime::Type:0x00000001025e08[0m
+   @string[32m=[0m[31m[1;31m"[0m[31mtext/html[1;31m"[0m[31m[0m,
+   @symbol[32m=[0m[33m:html[0m,
+   @synonyms[32m=[0m[[31m[1;31m"[0m[31mapplication/xhtml+xml[1;31m"[0m[31m[0m][32m>[0m,
+ @cv[32m=[0m
+  [32m#<MonitorMixin::ConditionVariable:0x00000006350880[0m
+   @cond[32m=[0m[32m#<Thread::ConditionVariable:0x00000006350790[0m[32m>[0m,
+   @monitor[32m=[0m[32m#<ActionController::TestResponse:0x00000003afacc8[0m ...[32m>[0m[32m>[0m,
+ @etag[32m=[0m[1;36mnil[0m,
+ @header[32m=[0m
+  {[31m[1;31m"[0m[31mLocation[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp://test.host/[1;31m"[0m[31m[0m,
+   [31m[1;31m"[0m[31mContent-Type[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtext/html; charset=utf-8[1;31m"[0m[31m[0m},
+ @mon_count[32m=[0m[1;34m0[0m,
+ @mon_mutex[32m=[0m[32m#<Mutex:0x00000006350b78[0m[32m>[0m,
+ @mon_owner[32m=[0m[1;36mnil[0m,
+ @request[32m=[0m
+  [32m#<ActionController::TestRequest:0x00000003b08148[0m
+   @cookies[32m=[0m{},
+   @env[32m=[0m
+    {[31m[1;31m"[0m[31mrack.version[1;31m"[0m[31m[0m=>[[1;34m1[0m, [1;34m3[0m],
+     [31m[1;31m"[0m[31mrack.input[1;31m"[0m[31m[0m=>[32m#<StringIO:0x00000006344c60[0m[32m>[0m,
+     [31m[1;31m"[0m[31mrack.errors[1;31m"[0m[31m[0m=>[32m#<StringIO:0x000000039d96c8[0m[32m>[0m,
+     [31m[1;31m"[0m[31mrack.multithread[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mrack.multiprocess[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mrack.run_once[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mREQUEST_METHOD[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mDELETE[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mSERVER_NAME[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mexample.org[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mSERVER_PORT[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m80[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mQUERY_STRING[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mrack.url_scheme[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTPS[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31moff[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mSCRIPT_NAME[1;31m"[0m[31m[0m=>[1;36mnil[0m,
+     [31m[1;31m"[0m[31mCONTENT_LENGTH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m0[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_HOST[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtest.host[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mREMOTE_ADDR[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m0.0.0.0[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_USER_AGENT[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mRails Testing[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maction_dispatch.routes[1;31m"[0m[31m[0m=>
+      [32m#<ActionDispatch::Routing::RouteSet:0x00000003f76e00>[0m,
+     [31m[1;31m"[0m[31maction_dispatch.parameter_filter[1;31m"[0m[31m[0m=>[[33m:password[0m],
+     [31m[1;31m"[0m[31maction_dispatch.redirect_filter[1;31m"[0m[31m[0m=>[],
+     [31m[1;31m"[0m[31maction_dispatch.secret_token[1;31m"[0m[31m[0m=>[1;36mnil[0m,
+     [31m[1;31m"[0m[31maction_dispatch.secret_key_base[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31m988a3606dd1312d33a258254baf344eb1d6734fb4b07352cae589a3b9c835689ec9580d61fd8bc9fab2aa9a6a6dbefbf5d60a274bdf1f0023a237b5e27aaf25c[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maction_dispatch.show_exceptions[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31maction_dispatch.show_detailed_exceptions[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31maction_dispatch.logger[1;31m"[0m[31m[0m=>
+      [32m#<ActiveSupport::Logger:0x00000003ef7178[0m
+       @default_formatter[32m=[0m
+        [32m#<Logger::Formatter:0x00000003ef7100[0m @datetime_format[32m=[0m[1;36mnil[0m[32m>[0m,
+       @formatter[32m=[0m
+        [32m#<ActiveSupport::Logger::SimpleFormatter:0x0000000445cf28[0m
+         @datetime_format[32m=[0m[1;36mnil[0m[32m>[0m,
+       @level[32m=[0m[1;34m0[0m,
+       @logdev[32m=[0m
+        [32m#<Logger::LogDevice:0x00000003ef70b0[0m
+         @dev[32m=[0m[32m#<File:/home/framgia/Documents/RubyPJ/fts_29/log/test.log>[0m,
+         @filename[32m=[0m[1;36mnil[0m,
+         @mutex[32m=[0m
+          [32m#<Logger::LogDevice::LogDeviceMutex:0x00000003ef7088[0m
+           @mon_count[32m=[0m[1;34m0[0m,
+           @mon_mutex[32m=[0m[32m#<Mutex:0x00000003ef7010[0m[32m>[0m,
+           @mon_owner[32m=[0m[1;36mnil[0m[32m>[0m,
+         @shift_age[32m=[0m[1;36mnil[0m,
+         @shift_size[32m=[0m[1;36mnil[0m[32m>[0m,
+       @progname[32m=[0m[1;36mnil[0m[32m>[0m,
+     [31m[1;31m"[0m[31maction_dispatch.backtrace_cleaner[1;31m"[0m[31m[0m=>
+      [32m#<Rails::BacktraceCleaner:0x00000006687008[0m
+       @filters[32m=[0m
+        [[32m#<Proc:0x00000006686ef0@/home/framgia/.rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/backtrace_cleaner.rb:14>[0m,
+         [32m#<Proc:0x00000006686ec8@/home/framgia/.rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/backtrace_cleaner.rb:15>[0m,
+         [32m#<Proc:0x00000006686ea0@/home/framgia/.rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/backtrace_cleaner.rb:16>[0m,
+         [32m#<Proc:0x00000006686b08@/home/framgia/.rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/backtrace_cleaner.rb:29>[0m],
+       @root[32m=[0m[31m[1;31m"[0m[31m/home/framgia/Documents/RubyPJ/fts_29/[1;31m"[0m[31m[0m,
+       @silencers[32m=[0m
+        [[32m#<Proc:0x00000006686ae0@/home/framgia/.rvm/gems/ruby-2.2.1/gems/railties-4.2.1/lib/rails/backtrace_cleaner.rb:19>[0m][32m>[0m,
+     [31m[1;31m"[0m[31maction_dispatch.key_generator[1;31m"[0m[31m[0m=>
+      [32m#<ActiveSupport::CachingKeyGenerator:0x00000003fe7560[0m
+       @cache_keys[32m=[0m
+        [32m#<ThreadSafe::Cache:0x00000003fe74e8[0m
+         @backend[32m=[0m
+          {[31m[1;31m"[0m[31msigned_global_ids64[1;31m"[0m[31m[0m=>
+            [31m[1;31m"[0m[31mF[1;35m\xC0[0m[31mx[1;35m\x94[0m[31mc[1;35m\xD6[0m[31m[1;35m\x98[0m[31m;[1;35m\xE3[0m[31m[1;35m\xC0[0m[31m[1;35m\xD9[0m[31mM[1;35m\x1E[0m[31m[1;35m\xDF[0m[31mJw[1;35m\x86[0m[31m[1;35m\xF7[0m[31m&[1;35m\xA1[0m[31m[1;35m\x03[0m[31m[1;35m\x99[0m[31m[1;35m\xED[0m[31m[1;35m\xCA[0m[31mv=[1;35m\xAD[0m[31m}'[1;35m\x11[0m[31m[1;35m\x18[0m[31mx[1;35m\xFB[0m[31m[1;35m\xCB[0m[31m[1;35m\e[0m[31m7[1;35m\x0E[0m[31m[1;35m\xFB[0m[31m[1;35m\xFD[0m[31m[1;35m\xA9[0m[31m[1;35m\x86[0m[31m[1;35m\x80[0m[31m[1;35m\xB5[0m[31mX[[1;35m\xB4[0m[31m[1;35m\xFE[0m[31m[1;35m\x03[0m[31m[1;35m\xD3[0m[31m[1;35m\x16[0m[31m[1;35m\xFE[0m[31m[1;35m\x83[0m[31m[1;35m\x84[0m[31m_[1;35m\xAA[0m[31mK[1;35m\xB0[0m[31m[1;35m\xA0[0m[31m[1;35m\xE6[0m[31m6[1;35m\xDF[0m[31m[1;35m\xE1[0m[31m1;[1;31m"[0m[31m[0m,
+           [31m[1;31m"[0m[31msigned cookie64[1;31m"[0m[31m[0m=>
+            [31m[1;31m"[0m[31mC[1;35m\xAF[0m[31m[1;35m\xC9[0m[31m[1;35m\x0F[0m[31m[1;35m\xC5[0m[31m[1;35m\xF5[0m[31m*[1;35m\xA1[0m[31m[1;35m\xD6[0m[31m*[1;35m\xE1[0m[31m[1;35m\xF0[0m[31m[1;35m\xF6[0m[31m[1;35m\xF4[0m[31m07[1;35m\xE1[0m[31m6[1;35m\xE4[0m[31m[1;35m\x11[0m[31m[1;35m\xC8[0m[31m0[1;35m\xA2[0m[31m[1;35m\x92[0m[31mR[1;35m\x86[0m[31m[1;35m\xBF[0m[31m[1;35m\xE2[0m[31mD%[1;35m\xD5[0m[31m[1;35m\x06[0m[31m[1;35m\xF1[0m[31m[1;35m\x81[0m[31m[[1;35m\xB3[0m[31m[1;35m\xE6[0m[31m35&[1;35m\xAB[0m[31m[1;35m\x01[0m[31mY![1;35m\xBD[0m[31mP[1;35m\xEC[0m[31m[1;35m\xCF[0m[31m[1;35m\xF5[0m[31mb [1;35m\xD0[0m[31m[1;35m\x9A[0m[31m[1;35m\xB7[0m[31mW[1;35m\x97[0m[31m[1;35m\xB5[0m[31m[1;35m\x1D[0m[31m:[1;35m\xEA[0m[31m[1;35m\xBE[0m[31my_[1;35m\xF7[0m[31m[1;31m"[0m[31m[0m,
+           [31m[1;31m"[0m[31mencrypted cookie64[1;31m"[0m[31m[0m=>
+            [31m[1;31m"[0m[31m:[1;35m\xD4[0m[31m[1;35m\x99[0m[31m[1;35m\x97[0m[31m[1;35m\xA8[0m[31m[1;35m\xBB[0m[31m[1;35m\xF8[0m[31mjd[1;35m\x8A[0m[31m[1;35m\x18[0m[31m[1;35m\xA1[0m[31m[1;35m\xEC[0m[31m[1;35m\x0F[0m[31m[1;35m\xB4[0m[31mwa[1;35m\x0E[0m[31m[1;35m\x9B[0m[31mxmh[1;35m\x9D[0m[31mjMM~[1;35m\xFC[0m[31m[1;35m\xC5[0m[31m[1;35m\xE8[0m[31m[1;35m\xDB[0m[31m[1;35m\x06[0m[31mv[1;35m\xF1[0m[31m[1;35m\xF8[0m[31ml[1;35m\x02[0m[31m[1;35m\xA7[0m[31m=[1;35m\x90[0m[31m[1;35m\xCD[0m[31mPhe>[1;35m\xF0[0m[31m[1;35m\x85[0m[31m8[1;35m\"[0m[31m[1;35m\xC6[0m[31m;&[1;35m\xAC[0m[31m[1;35m\x15[0m[31m[1;35m\x90[0m[31mZ[1;35m\x96[0m[31mKt[1;35m\xEE[0m[31m[1;35m\x9F[0m[31m[1;35m\x80[0m[31m6[1;35m\xD8[0m[31m[1;31m"[0m[31m[0m,
+           [31m[1;31m"[0m[31msigned encrypted cookie64[1;31m"[0m[31m[0m=>
+            [31m[1;31m"[0m[31m[1;35m\xB0[0m[31m[1;35m\xDE[0m[31m[1;35m\xA8[0m[31m[1;35m\xD7[0m[31m[1;35m\xC1[0m[31m[1;35m\x05[0m[31m[1;35m\x13[0m[31m[1;35m\xEC[0m[31mo[1;35m\x1C[0m[31mCfe[1;35m\xD2[0m[31mf|T([1;35m\x91[0m[31ms[1;35m\xF5[0m[31m[1;35m\xF9[0m[31m[1;35m\xAD[0m[31m[1;35m\xAF[0m[31m[1;35m\xDF[0m[31m6[1;35m\xA4[0m[31mq{[1;35m\xEE[0m[31m[1;35m\x0F[0m[31m[1;35m\xF5[0m[31m !E[1;35m\x98[0m[31m[1;35m\xCB[0m[31m[1;35m\x8A[0m[31m[1;35m\x18[0m[31m+[1;35m\x05[0m[31m[1;35m\xF0[0m[31mE[1;35m\x12[0m[31m$9K[1;35m\xA7[0m[31m[1;35m\xE6[0m[31mJ[1;35m\xFB[0m[31m[1;35m\xAD[0m[31m[1;35m\xF6[0m[31m`[1;35m\xD6[0m[31m[1;35m\xBF[0m[31m[1;35m\x15[0m[31m[1;35m\x1A[0m[31m[1;35m\b[0m[31m[1;35m\xDB[0m[31m[1;35m\xD6[0m[31m[1;35m\xC5[0m[31m[1;35m\xFE[0m[31m[1;35m\xEF[0m[31m[1;31m"[0m[31m[0m},
+         @default_proc[32m=[0m[1;36mnil[0m[32m>[0m,
+       @key_generator[32m=[0m
+        [32m#<ActiveSupport::KeyGenerator:0x00000003fe7588[0m
+         @iterations[32m=[0m[1;34m1000[0m,
+         @secret[32m=[0m
+          [31m[1;31m"[0m[31m988a3606dd1312d33a258254baf344eb1d6734fb4b07352cae589a3b9c835689ec9580d61fd8bc9fab2aa9a6a6dbefbf5d60a274bdf1f0023a237b5e27aaf25c[1;31m"[0m[31m[0m[32m>[0m[32m>[0m,
+     [31m[1;31m"[0m[31maction_dispatch.http_auth_salt[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp authentication[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maction_dispatch.signed_cookie_salt[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31msigned cookie[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maction_dispatch.encrypted_cookie_salt[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mencrypted cookie[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maction_dispatch.encrypted_signed_cookie_salt[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31msigned encrypted cookie[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maction_dispatch.cookies_serializer[1;31m"[0m[31m[0m=>[33m:json[0m,
+     [31m[1;31m"[0m[31maction_dispatch.cookies_digest[1;31m"[0m[31m[0m=>[1;36mnil[0m,
+     [31m[1;31m"[0m[31mrack.session[1;31m"[0m[31m[0m=>
+      {[31m[1;31m"[0m[31mflash[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mdiscard[1;31m"[0m[31m[0m=>[], [31m[1;31m"[0m[31mflashes[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mdanger[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mYou are not authorized to access this page.[1;31m"[0m[31m[0m}}},
+     [31m[1;31m"[0m[31mrack.session.options[1;31m"[0m[31m[0m=>
+      {[33m:key[0m=>[31m[1;31m"[0m[31mrack.session[1;31m"[0m[31m[0m,
+       [33m:path[0m=>[31m[1;31m"[0m[31m/[1;31m"[0m[31m[0m,
+       [33m:domain[0m=>[1;36mnil[0m,
+       [33m:expire_after[0m=>[1;36mnil[0m,
+       [33m:secure[0m=>[1;36mfalse[0m,
+       [33m:httponly[0m=>[1;36mtrue[0m,
+       [33m:defer[0m=>[1;36mfalse[0m,
+       [33m:renew[0m=>[1;36mfalse[0m,
+       [33m:sidbits[0m=>[1;34m128[0m,
+       [33m:cookie_only[0m=>[1;36mtrue[0m,
+       [33m:secure_random[0m=>[1;34;4mSecureRandom[0m,
+       [33m:id[0m=>[31m[1;31m"[0m[31m1f203650b4e36370be7ab928fde47212[1;31m"[0m[31m[0m},
+     [31m[1;31m"[0m[31maction_controller.instance[1;31m"[0m[31m[0m=>
+      [32m#<Admin::CategoriesController:0x00000003b08698[0m
+       @_action_has_layout[32m=[0m[1;36mtrue[0m,
+       @_action_name[32m=[0m[31m[1;31m"[0m[31mdestroy[1;31m"[0m[31m[0m,
+       @_authorized[32m=[0m[1;36mtrue[0m,
+       @_config[32m=[0m{},
+       @_env[32m=[0m{},
+       @_headers[32m=[0m{[31m[1;31m"[0m[31mContent-Type[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtext/html[1;31m"[0m[31m[0m},
+       @_lookup_context[32m=[0m
+        [32m#<ActionView::LookupContext:0x00000003ecbe60[0m
+         @cache[32m=[0m[1;36mtrue[0m,
+         @details[32m=[0m
+          {[33m:locale[0m=>[[33m:en[0m],
+           [33m:formats[0m=>
+            [[33m:html[0m,
+             [33m:text[0m,
+             [33m:js[0m,
+             [33m:css[0m,
+             [33m:ics[0m,
+             [33m:csv[0m,
+             [33m:vcf[0m,
+             [33m:png[0m,
+             [33m:jpeg[0m,
+             [33m:gif[0m,
+             [33m:bmp[0m,
+             [33m:tiff[0m,
+             [33m:mpeg[0m,
+             [33m:xml[0m,
+             [33m:rss[0m,
+             [33m:atom[0m,
+             [33m:yaml[0m,
+             [33m:multipart_form[0m,
+             [33m:url_encoded_form[0m,
+             [33m:json[0m,
+             [33m:pdf[0m,
+             [33m:zip[0m],
+           [33m:variants[0m=>[],
+           [33m:handlers[0m=>[[33m:erb[0m, [33m:builder[0m, [33m:raw[0m, [33m:ruby[0m, [33m:coffee[0m, [33m:jbuilder[0m]},
+         @details_key[32m=[0m[1;36mnil[0m,
+         @prefixes[32m=[0m[[31m[1;31m"[0m[31madmin/categories[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mapplication[1;31m"[0m[31m[0m],
+         @rendered_format[32m=[0m[1;36mnil[0m,
+         @skip_default_locale[32m=[0m[1;36mfalse[0m,
+         @view_paths[32m=[0m
+          [32m#<ActionView::PathSet:0x00000003ecbd98[0m
+           @paths[32m=[0m
+            [[32m#<ActionView::OptimizedFileSystemResolver:0x00000003f42268[0m
+              @cache[32m=[0m
+               [32m#<ActionView::Resolver::Cache:0x00000003f42218[0m
+                @data[32m=[0m
+                 [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003f421f0[0m
+                  @backend[32m=[0m
+                   {[32m#<ActionView::LookupContext::DetailsKey:0x00000003fb5380[0m
+                     @hash[32m=[0m[1;34m2089638354935225232[0m[32m>[0m=>
+                     [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003fb5100[0m
+                      @backend[32m=[0m
+                       {[31m[1;31m"[0m[31mindex[1;31m"[0m[31m[0m=>
+                         [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003fb4ef8[0m
+                          @backend[32m=[0m
+                           {[31m[1;31m"[0m[31madmin/categories[1;31m"[0m[31m[0m=>
+                             [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003fb4b38[0m
+                              @backend[32m=[0m
+                               {[1;36mfalse[0m=>
+                                 [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003fb4958[0m
+                                  @backend[32m=[0m
+                                   {[]=>
+                                     [app/views/admin/categories/index.html.erb]},
+                                  @default_proc[32m=[0m[1;36mnil[0m[32m>[0m},
+                              @default_proc[32m=[0m
+                               [32m#<Proc:0x00000001cac5a0@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:46 (lambda)>[0m[32m>[0m},
+                          @default_proc[32m=[0m
+                           [32m#<Proc:0x00000001cac578@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:47 (lambda)>[0m[32m>[0m,
+                        [31m[1;31m"[0m[31mcategories[1;31m"[0m[31m[0m=>
+                         [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003fa9c10[0m
+                          @backend[32m=[0m
+                           {[31m[1;31m"[0m[31mlayouts/admin[1;31m"[0m[31m[0m=>
+                             [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003fa99e0[0m
+                              @backend[32m=[0m
+                               {[1;36mfalse[0m=>
+                                 [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003fa98a0[0m
+                                  @backend[32m=[0m{[]=>[]},
+                                  @default_proc[32m=[0m[1;36mnil[0m[32m>[0m},
+                              @default_proc[32m=[0m
+                               [32m#<Proc:0x00000001cac5a0@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:46 (lambda)>[0m[32m>[0m},
+                          @default_proc[32m=[0m
+                           [32m#<Proc:0x00000001cac578@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:47 (lambda)>[0m[32m>[0m,
+                        [31m[1;31m"[0m[31mapplication[1;31m"[0m[31m[0m=>
+                         [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003f9d118[0m
+                          @backend[32m=[0m
+                           {[31m[1;31m"[0m[31mlayouts[1;31m"[0m[31m[0m=>
+                             [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003f9d028[0m
+                              @backend[32m=[0m
+                               {[1;36mfalse[0m=>
+                                 [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003f9cdf8[0m
+                                  @backend[32m=[0m
+                                   {[]=>
+                                     [app/views/layouts/application.html.erb]},
+                                  @default_proc[32m=[0m[1;36mnil[0m[32m>[0m},
+                              @default_proc[32m=[0m
+                               [32m#<Proc:0x00000001cac5a0@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:46 (lambda)>[0m[32m>[0m},
+                          @default_proc[32m=[0m
+                           [32m#<Proc:0x00000001cac578@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:47 (lambda)>[0m[32m>[0m,
+                        [31m[1;31m"[0m[31mcategory[1;31m"[0m[31m[0m=>
+                         [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003eae540[0m
+                          @backend[32m=[0m
+                           {[31m[1;31m"[0m[31madmin/categories[1;31m"[0m[31m[0m=>
+                             [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003eae338[0m
+                              @backend[32m=[0m
+                               {[1;36mtrue[0m=>
+                                 [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003eae130[0m
+                                  @backend[32m=[0m
+                                   {[[31m[1;31m"[0m[31mcategory[1;31m"[0m[31m[0m,
+                                     [31m[1;31m"[0m[31mcategory_counter[1;31m"[0m[31m[0m,
+                                     [31m[1;31m"[0m[31mcategory_iteration[1;31m"[0m[31m[0m]=>
+                                     [app/views/admin/categories/_category.html.erb]},
+                                  @default_proc[32m=[0m[1;36mnil[0m[32m>[0m},
+                              @default_proc[32m=[0m
+                               [32m#<Proc:0x00000001cac5a0@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:46 (lambda)>[0m[32m>[0m},
+                          @default_proc[32m=[0m
+                           [32m#<Proc:0x00000001cac578@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:47 (lambda)>[0m[32m>[0m,
+                        [31m[1;31m"[0m[31mheader[1;31m"[0m[31m[0m=>
+                         [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003d77780[0m
+                          @backend[32m=[0m
+                           {[31m[1;31m"[0m[31mlayouts[1;31m"[0m[31m[0m=>
+                             [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003d77280[0m
+                              @backend[32m=[0m
+                               {[1;36mtrue[0m=>
+                                 [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003d76da8[0m
+                                  @backend[32m=[0m
+                                   {[]=>[app/views/layouts/_header.html.erb]},
+                                  @default_proc[32m=[0m[1;36mnil[0m[32m>[0m},
+                              @default_proc[32m=[0m
+                               [32m#<Proc:0x00000001cac5a0@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:46 (lambda)>[0m[32m>[0m},
+                          @default_proc[32m=[0m
+                           [32m#<Proc:0x00000001cac578@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:47 (lambda)>[0m[32m>[0m,
+                        [31m[1;31m"[0m[31mfooter[1;31m"[0m[31m[0m=>
+                         [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003c05910[0m
+                          @backend[32m=[0m
+                           {[31m[1;31m"[0m[31mlayouts[1;31m"[0m[31m[0m=>
+                             [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003c051b8[0m
+                              @backend[32m=[0m
+                               {[1;36mtrue[0m=>
+                                 [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003c048f8[0m
+                                  @backend[32m=[0m
+                                   {[]=>[app/views/layouts/_footer.html.erb]},
+                                  @default_proc[32m=[0m[1;36mnil[0m[32m>[0m},
+                              @default_proc[32m=[0m
+                               [32m#<Proc:0x00000001cac5a0@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:46 (lambda)>[0m[32m>[0m},
+                          @default_proc[32m=[0m
+                           [32m#<Proc:0x00000001cac578@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:47 (lambda)>[0m[32m>[0m,
+                        [31m[1;31m"[0m[31mnew[1;31m"[0m[31m[0m=>
+                         [32m#<ActionView::Resolver::Cache::SmallCache:0x000000021393e8[0m
+                          @backend[32m=[0m
+                           {[31m[1;31m"[0m[31madmin/categories[1;31m"[0m[31m[0m=>
+                             [32m#<ActionView::Resolver::Cache::SmallCache:0x000000021339e8[0m
+                              @backend[32m=[0m
+                               {[1;36mfalse[0m=>
+                                 [32m#<ActionView::Resolver::Cache::SmallCache:0x000000021326b0[0m
+                                  @backend[32m=[0m
+                                   {[]=>
+                                     [app/views/admin/categories/new.html.erb]},
+                                  @default_proc[32m=[0m[1;36mnil[0m[32m>[0m},
+                              @default_proc[32m=[0m
+                               [32m#<Proc:0x00000001cac5a0@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:46 (lambda)>[0m[32m>[0m},
+                          @default_proc[32m=[0m
+                           [32m#<Proc:0x00000001cac578@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:47 (lambda)>[0m[32m>[0m,
+                        [31m[1;31m"[0m[31mcategory_form[1;31m"[0m[31m[0m=>
+                         [32m#<ActionView::Resolver::Cache::SmallCache:0x00000002084d80[0m
+                          @backend[32m=[0m
+                           {[31m[1;31m"[0m[31madmin/categories[1;31m"[0m[31m[0m=>
+                             [32m#<ActionView::Resolver::Cache::SmallCache:0x000000020841c8[0m
+                              @backend[32m=[0m
+                               {[1;36mtrue[0m=>
+                                 [32m#<ActionView::Resolver::Cache::SmallCache:0x00000002076a28[0m
+                                  @backend[32m=[0m
+                                   {[]=>
+                                     [app/views/admin/categories/_category_form.html.erb]},
+                                  @default_proc[32m=[0m[1;36mnil[0m[32m>[0m},
+                              @default_proc[32m=[0m
+                               [32m#<Proc:0x00000001cac5a0@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:46 (lambda)>[0m[32m>[0m},
+                          @default_proc[32m=[0m
+                           [32m#<Proc:0x00000001cac578@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:47 (lambda)>[0m[32m>[0m,
+                        [31m[1;31m"[0m[31merror_messages[1;31m"[0m[31m[0m=>
+                         [32m#<ActionView::Resolver::Cache::SmallCache:0x00000001f2b358[0m
+                          @backend[32m=[0m
+                           {[31m[1;31m"[0m[31mshared[1;31m"[0m[31m[0m=>
+                             [32m#<ActionView::Resolver::Cache::SmallCache:0x00000001f2ae58[0m
+                              @backend[32m=[0m
+                               {[1;36mtrue[0m=>
+                                 [32m#<ActionView::Resolver::Cache::SmallCache:0x00000001f2a778[0m
+                                  @backend[32m=[0m
+                                   {[[31m[1;31m"[0m[31mobject[1;31m"[0m[31m[0m]=>
+                                     [app/views/shared/_error_messages.html.erb]},
+                                  @default_proc[32m=[0m[1;36mnil[0m[32m>[0m},
+                              @default_proc[32m=[0m
+                               [32m#<Proc:0x00000001cac5a0@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:46 (lambda)>[0m[32m>[0m},
+                          @default_proc[32m=[0m
+                           [32m#<Proc:0x00000001cac578@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:47 (lambda)>[0m[32m>[0m,
+                        [31m[1;31m"[0m[31medit[1;31m"[0m[31m[0m=>
+                         [32m#<ActionView::Resolver::Cache::SmallCache:0x00000006e21d40[0m
+                          @backend[32m=[0m
+                           {[31m[1;31m"[0m[31madmin/categories[1;31m"[0m[31m[0m=>
+                             [32m#<ActionView::Resolver::Cache::SmallCache:0x00000006e21c50[0m
+                              @backend[32m=[0m
+                               {[1;36mfalse[0m=>
+                                 [32m#<ActionView::Resolver::Cache::SmallCache:0x00000006e21b88[0m
+                                  @backend[32m=[0m
+                                   {[]=>
+                                     [app/views/admin/categories/edit.html.erb]},
+                                  @default_proc[32m=[0m[1;36mnil[0m[32m>[0m},
+                              @default_proc[32m=[0m
+                               [32m#<Proc:0x00000001cac5a0@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:46 (lambda)>[0m[32m>[0m},
+                          @default_proc[32m=[0m
+                           [32m#<Proc:0x00000001cac578@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:47 (lambda)>[0m[32m>[0m},
+                      @default_proc[32m=[0m
+                       [32m#<Proc:0x00000001cac550@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:48 (lambda)>[0m[32m>[0m},
+                  @default_proc[32m=[0m
+                   [32m#<Proc:0x00000001cac528@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:49 (lambda)>[0m[32m>[0m[32m>[0m,
+              @path[32m=[0m[31m[1;31m"[0m[31m/home/framgia/Documents/RubyPJ/fts_29/app/views[1;31m"[0m[31m[0m,
+              @pattern[32m=[0m
+               [31m[1;31m"[0m[31m:prefix/:action{.:locale,}{.:formats,}{+:variants,}{.:handlers,}[1;31m"[0m[31m[0m[32m>[0m,
+             [32m#<ActionView::OptimizedFileSystemResolver:0x00000003f592d8[0m
+              @cache[32m=[0m
+               [32m#<ActionView::Resolver::Cache:0x00000003f592b0[0m
+                @data[32m=[0m
+                 [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003f59288[0m
+                  @backend[32m=[0m
+                   {[32m#<ActionView::LookupContext::DetailsKey:0x00000003fb5380[0m
+                     @hash[32m=[0m[1;34m2089638354935225232[0m[32m>[0m=>
+                     [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003f9ef90[0m
+                      @backend[32m=[0m
+                       {[31m[1;31m"[0m[31mcategories[1;31m"[0m[31m[0m=>
+                         [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003f9edd8[0m
+                          @backend[32m=[0m
+                           {[31m[1;31m"[0m[31mlayouts/admin[1;31m"[0m[31m[0m=>
+                             [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003f9ecc0[0m
+                              @backend[32m=[0m
+                               {[1;36mfalse[0m=>
+                                 [32m#<ActionView::Resolver::Cache::SmallCache:0x00000003f9ebd0[0m
+                                  @backend[32m=[0m{[]=>[]},
+                                  @default_proc[32m=[0m[1;36mnil[0m[32m>[0m},
+                              @default_proc[32m=[0m
+                               [32m#<Proc:0x00000001cac5a0@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:46 (lambda)>[0m[32m>[0m},
+                          @default_proc[32m=[0m
+                           [32m#<Proc:0x00000001cac578@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:47 (lambda)>[0m[32m>[0m},
+                      @default_proc[32m=[0m
+                       [32m#<Proc:0x00000001cac550@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:48 (lambda)>[0m[32m>[0m},
+                  @default_proc[32m=[0m
+                   [32m#<Proc:0x00000001cac528@/home/framgia/.rvm/gems/ruby-2.2.1/gems/actionview-4.2.1/lib/action_view/template/resolver.rb:49 (lambda)>[0m[32m>[0m[32m>[0m,
+              @path[32m=[0m
+               [31m[1;31m"[0m[31m/home/framgia/.rvm/gems/ruby-2.2.1/gems/devise-3.5.0/app/views[1;31m"[0m[31m[0m,
+              @pattern[32m=[0m
+               [31m[1;31m"[0m[31m:prefix/:action{.:locale,}{.:formats,}{+:variants,}{.:handlers,}[1;31m"[0m[31m[0m[32m>[0m][32m>[0m[32m>[0m,
+       @_params[32m=[0m
+        {[31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mcontroller[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31madmin/categories[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31maction[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mdestroy[1;31m"[0m[31m[0m},
+       @_request[32m=[0m[32m#<ActionController::TestRequest:0x00000003b08148[0m ...[32m>[0m,
+       @_response[32m=[0m[32m#<ActionController::TestResponse:0x00000003afacc8[0m ...[32m>[0m,
+       @_response_body[32m=[0m
+        [[31m[1;31m"[0m[31m<html><body>You are being <a href=[1;35m\"[0m[31mhttp://test.host/[1;35m\"[0m[31m>redirected</a>.</body></html>[1;31m"[0m[31m[0m],
+       @_routes[32m=[0m[1;36mnil[0m,
+       @_status[32m=[0m[1;34m200[0m,
+       @_url_options[32m=[0m
+        {[33m:host[0m=>[31m[1;31m"[0m[31mtest.host[1;31m"[0m[31m[0m,
+         [33m:port[0m=>[1;36mnil[0m,
+         [33m:protocol[0m=>[31m[1;31m"[0m[31mhttp://[1;31m"[0m[31m[0m,
+         [33m:_recall[0m=>
+          {[33m:id[0m=>[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m, [33m:controller[0m=>[31m[1;31m"[0m[31madmin/categories[1;31m"[0m[31m[0m, [33m:action[0m=>[31m[1;31m"[0m[31mdestroy[1;31m"[0m[31m[0m}},
+       @category[32m=[0m
+        [32m#<Category:0x000000040bc238[0m
+         id: [1;34m1[0m,
+         name: [31m[1;31m"[0m[31mRuby on rails[1;31m"[0m[31m[0m,
+         max_question: [1;34m10[0m,
+         max_time: [1;34m10[0m,
+         created_at: [1;34;4mFri[0m, [1;34m05[0m [1;34;4mJun[0m [1;34m2015[0m [1;34m03[0m:[1;34m31[0m:[1;34m58[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+         updated_at: [1;34;4mFri[0m, [1;34m05[0m [1;34;4mJun[0m [1;34m2015[0m [1;34m03[0m:[1;34m31[0m:[1;34m58[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+       @current_ability[32m=[0m
+        [32m#<Ability:0x00000004095a20[0m
+         @aliased_actions[32m=[0m
+          {[33m:read[0m=>[[33m:index[0m, [33m:show[0m], [33m:create[0m=>[[33m:new[0m], [33m:update[0m=>[[33m:edit[0m]},
+         @rules[32m=[0m[][32m>[0m,
+       @current_user[32m=[0m[1;36mnil[0m,
+       @marked_for_same_origin_verification[32m=[0m[1;36mfalse[0m[32m>[0m,
+     [31m[1;31m"[0m[31mwarden[1;31m"[0m[31m[0m=>
+      [1;34;4mWarden[0m::[1;34;4mProxy[0m:[1;34m31358160[0m @config={[33m:default_scope[0m=>[33m:user[0m, [33m:scope_defaults[0m=>{}, [33m:default_strategies[0m=>{[33m:user[0m=>[[33m:rememberable[0m, [33m:database_authenticatable[0m]}, [33m:intercept_401[0m=>[1;36mfalse[0m, [33m:failure_app[0m=>[1;34m#<Devise::Delegator:0x00000003d4d430>}[0m,
+     [31m[1;31m"[0m[31maction_dispatch.cookies[1;31m"[0m[31m[0m=>
+      [32m#<ActionDispatch::Cookies::CookieJar:0x00000003ef5c38[0m
+       @committed[32m=[0m[1;36mfalse[0m,
+       @cookies[32m=[0m{[31m[1;31m"[0m[31mrequest_method[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mDELETE[1;31m"[0m[31m[0m},
+       @delete_cookies[32m=[0m{},
+       @host[32m=[0m[31m[1;31m"[0m[31mtest.host[1;31m"[0m[31m[0m,
+       @key_generator[32m=[0m
+        [32m#<ActiveSupport::CachingKeyGenerator:0x00000003fe7560[0m
+         @cache_keys[32m=[0m
+          [32m#<ThreadSafe::Cache:0x00000003fe74e8[0m
+           @backend[32m=[0m
+            {[31m[1;31m"[0m[31msigned_global_ids64[1;31m"[0m[31m[0m=>
+              [31m[1;31m"[0m[31mF[1;35m\xC0[0m[31mx[1;35m\x94[0m[31mc[1;35m\xD6[0m[31m[1;35m\x98[0m[31m;[1;35m\xE3[0m[31m[1;35m\xC0[0m[31m[1;35m\xD9[0m[31mM[1;35m\x1E[0m[31m[1;35m\xDF[0m[31mJw[1;35m\x86[0m[31m[1;35m\xF7[0m[31m&[1;35m\xA1[0m[31m[1;35m\x03[0m[31m[1;35m\x99[0m[31m[1;35m\xED[0m[31m[1;35m\xCA[0m[31mv=[1;35m\xAD[0m[31m}'[1;35m\x11[0m[31m[1;35m\x18[0m[31mx[1;35m\xFB[0m[31m[1;35m\xCB[0m[31m[1;35m\e[0m[31m7[1;35m\x0E[0m[31m[1;35m\xFB[0m[31m[1;35m\xFD[0m[31m[1;35m\xA9[0m[31m[1;35m\x86[0m[31m[1;35m\x80[0m[31m[1;35m\xB5[0m[31mX[[1;35m\xB4[0m[31m[1;35m\xFE[0m[31m[1;35m\x03[0m[31m[1;35m\xD3[0m[31m[1;35m\x16[0m[31m[1;35m\xFE[0m[31m[1;35m\x83[0m[31m[1;35m\x84[0m[31m_[1;35m\xAA[0m[31mK[1;35m\xB0[0m[31m[1;35m\xA0[0m[31m[1;35m\xE6[0m[31m6[1;35m\xDF[0m[31m[1;35m\xE1[0m[31m1;[1;31m"[0m[31m[0m,
+             [31m[1;31m"[0m[31msigned cookie64[1;31m"[0m[31m[0m=>
+              [31m[1;31m"[0m[31mC[1;35m\xAF[0m[31m[1;35m\xC9[0m[31m[1;35m\x0F[0m[31m[1;35m\xC5[0m[31m[1;35m\xF5[0m[31m*[1;35m\xA1[0m[31m[1;35m\xD6[0m[31m*[1;35m\xE1[0m[31m[1;35m\xF0[0m[31m[1;35m\xF6[0m[31m[1;35m\xF4[0m[31m07[1;35m\xE1[0m[31m6[1;35m\xE4[0m[31m[1;35m\x11[0m[31m[1;35m\xC8[0m[31m0[1;35m\xA2[0m[31m[1;35m\x92[0m[31mR[1;35m\x86[0m[31m[1;35m\xBF[0m[31m[1;35m\xE2[0m[31mD%[1;35m\xD5[0m[31m[1;35m\x06[0m[31m[1;35m\xF1[0m[31m[1;35m\x81[0m[31m[[1;35m\xB3[0m[31m[1;35m\xE6[0m[31m35&[1;35m\xAB[0m[31m[1;35m\x01[0m[31mY![1;35m\xBD[0m[31mP[1;35m\xEC[0m[31m[1;35m\xCF[0m[31m[1;35m\xF5[0m[31mb [1;35m\xD0[0m[31m[1;35m\x9A[0m[31m[1;35m\xB7[0m[31mW[1;35m\x97[0m[31m[1;35m\xB5[0m[31m[1;35m\x1D[0m[31m:[1;35m\xEA[0m[31m[1;35m\xBE[0m[31my_[1;35m\xF7[0m[31m[1;31m"[0m[31m[0m,
+             [31m[1;31m"[0m[31mencrypted cookie64[1;31m"[0m[31m[0m=>
+              [31m[1;31m"[0m[31m:[1;35m\xD4[0m[31m[1;35m\x99[0m[31m[1;35m\x97[0m[31m[1;35m\xA8[0m[31m[1;35m\xBB[0m[31m[1;35m\xF8[0m[31mjd[1;35m\x8A[0m[31m[1;35m\x18[0m[31m[1;35m\xA1[0m[31m[1;35m\xEC[0m[31m[1;35m\x0F[0m[31m[1;35m\xB4[0m[31mwa[1;35m\x0E[0m[31m[1;35m\x9B[0m[31mxmh[1;35m\x9D[0m[31mjMM~[1;35m\xFC[0m[31m[1;35m\xC5[0m[31m[1;35m\xE8[0m[31m[1;35m\xDB[0m[31m[1;35m\x06[0m[31mv[1;35m\xF1[0m[31m[1;35m\xF8[0m[31ml[1;35m\x02[0m[31m[1;35m\xA7[0m[31m=[1;35m\x90[0m[31m[1;35m\xCD[0m[31mPhe>[1;35m\xF0[0m[31m[1;35m\x85[0m[31m8[1;35m\"[0m[31m[1;35m\xC6[0m[31m;&[1;35m\xAC[0m[31m[1;35m\x15[0m[31m[1;35m\x90[0m[31mZ[1;35m\x96[0m[31mKt[1;35m\xEE[0m[31m[1;35m\x9F[0m[31m[1;35m\x80[0m[31m6[1;35m\xD8[0m[31m[1;31m"[0m[31m[0m,
+             [31m[1;31m"[0m[31msigned encrypted cookie64[1;31m"[0m[31m[0m=>
+              [31m[1;31m"[0m[31m[1;35m\xB0[0m[31m[1;35m\xDE[0m[31m[1;35m\xA8[0m[31m[1;35m\xD7[0m[31m[1;35m\xC1[0m[31m[1;35m\x05[0m[31m[1;35m\x13[0m[31m[1;35m\xEC[0m[31mo[1;35m\x1C[0m[31mCfe[1;35m\xD2[0m[31mf|T([1;35m\x91[0m[31ms[1;35m\xF5[0m[31m[1;35m\xF9[0m[31m[1;35m\xAD[0m[31m[1;35m\xAF[0m[31m[1;35m\xDF[0m[31m6[1;35m\xA4[0m[31mq{[1;35m\xEE[0m[31m[1;35m\x0F[0m[31m[1;35m\xF5[0m[31m !E[1;35m\x98[0m[31m[1;35m\xCB[0m[31m[1;35m\x8A[0m[31m[1;35m\x18[0m[31m+[1;35m\x05[0m[31m[1;35m\xF0[0m[31mE[1;35m\x12[0m[31m$9K[1;35m\xA7[0m[31m[1;35m\xE6[0m[31mJ[1;35m\xFB[0m[31m[1;35m\xAD[0m[31m[1;35m\xF6[0m[31m`[1;35m\xD6[0m[31m[1;35m\xBF[0m[31m[1;35m\x15[0m[31m[1;35m\x1A[0m[31m[1;35m\b[0m[31m[1;35m\xDB[0m[31m[1;35m\xD6[0m[31m[1;35m\xC5[0m[31m[1;35m\xFE[0m[31m[1;35m\xEF[0m[31m[1;31m"[0m[31m[0m},
+           @default_proc[32m=[0m[1;36mnil[0m[32m>[0m,
+         @key_generator[32m=[0m
+          [32m#<ActiveSupport::KeyGenerator:0x00000003fe7588[0m
+           @iterations[32m=[0m[1;34m1000[0m,
+           @secret[32m=[0m
+            [31m[1;31m"[0m[31m988a3606dd1312d33a258254baf344eb1d6734fb4b07352cae589a3b9c835689ec9580d61fd8bc9fab2aa9a6a6dbefbf5d60a274bdf1f0023a237b5e27aaf25c[1;31m"[0m[31m[0m[32m>[0m[32m>[0m,
+       @options[32m=[0m
+        {[33m:signed_cookie_salt[0m=>[31m[1;31m"[0m[31msigned cookie[1;31m"[0m[31m[0m,
+         [33m:encrypted_cookie_salt[0m=>[31m[1;31m"[0m[31mencrypted cookie[1;31m"[0m[31m[0m,
+         [33m:encrypted_signed_cookie_salt[0m=>[31m[1;31m"[0m[31msigned encrypted cookie[1;31m"[0m[31m[0m,
+         [33m:secret_token[0m=>[1;36mnil[0m,
+         [33m:secret_key_base[0m=>
+          [31m[1;31m"[0m[31m988a3606dd1312d33a258254baf344eb1d6734fb4b07352cae589a3b9c835689ec9580d61fd8bc9fab2aa9a6a6dbefbf5d60a274bdf1f0023a237b5e27aaf25c[1;31m"[0m[31m[0m,
+         [33m:upgrade_legacy_signed_cookies[0m=>[1;36mfalse[0m,
+         [33m:serializer[0m=>[33m:json[0m,
+         [33m:digest[0m=>[1;36mnil[0m},
+       @secure[32m=[0m[1;36mfalse[0m,
+       @set_cookies[32m=[0m{},
+       @signed[32m=[0m
+        [32m#<ActionDispatch::Cookies::SignedCookieJar:0x00000004096ab0[0m
+         @options[32m=[0m
+          {[33m:signed_cookie_salt[0m=>[31m[1;31m"[0m[31msigned cookie[1;31m"[0m[31m[0m,
+           [33m:encrypted_cookie_salt[0m=>[31m[1;31m"[0m[31mencrypted cookie[1;31m"[0m[31m[0m,
+           [33m:encrypted_signed_cookie_salt[0m=>[31m[1;31m"[0m[31msigned encrypted cookie[1;31m"[0m[31m[0m,
+           [33m:secret_token[0m=>[1;36mnil[0m,
+           [33m:secret_key_base[0m=>
+            [31m[1;31m"[0m[31m988a3606dd1312d33a258254baf344eb1d6734fb4b07352cae589a3b9c835689ec9580d61fd8bc9fab2aa9a6a6dbefbf5d60a274bdf1f0023a237b5e27aaf25c[1;31m"[0m[31m[0m,
+           [33m:upgrade_legacy_signed_cookies[0m=>[1;36mfalse[0m,
+           [33m:serializer[0m=>[33m:json[0m,
+           [33m:digest[0m=>[1;36mnil[0m},
+         @parent_jar[32m=[0m
+          [32m#<ActionDispatch::Cookies::CookieJar:0x00000003ef5c38[0m ...[32m>[0m,
+         @verifier[32m=[0m
+          [32m#<ActiveSupport::MessageVerifier:0x000000040968a8[0m
+           @digest[32m=[0m[31m[1;31m"[0m[31mSHA1[1;31m"[0m[31m[0m,
+           @secret[32m=[0m
+            [31m[1;31m"[0m[31mC[1;35m\xAF[0m[31m[1;35m\xC9[0m[31m[1;35m\x0F[0m[31m[1;35m\xC5[0m[31m[1;35m\xF5[0m[31m*[1;35m\xA1[0m[31m[1;35m\xD6[0m[31m*[1;35m\xE1[0m[31m[1;35m\xF0[0m[31m[1;35m\xF6[0m[31m[1;35m\xF4[0m[31m07[1;35m\xE1[0m[31m6[1;35m\xE4[0m[31m[1;35m\x11[0m[31m[1;35m\xC8[0m[31m0[1;35m\xA2[0m[31m[1;35m\x92[0m[31mR[1;35m\x86[0m[31m[1;35m\xBF[0m[31m[1;35m\xE2[0m[31mD%[1;35m\xD5[0m[31m[1;35m\x06[0m[31m[1;35m\xF1[0m[31m[1;35m\x81[0m[31m[[1;35m\xB3[0m[31m[1;35m\xE6[0m[31m35&[1;35m\xAB[0m[31m[1;35m\x01[0m[31mY![1;35m\xBD[0m[31mP[1;35m\xEC[0m[31m[1;35m\xCF[0m[31m[1;35m\xF5[0m[31mb [1;35m\xD0[0m[31m[1;35m\x9A[0m[31m[1;35m\xB7[0m[31mW[1;35m\x97[0m[31m[1;35m\xB5[0m[31m[1;35m\x1D[0m[31m:[1;35m\xEA[0m[31m[1;35m\xBE[0m[31my_[1;35m\xF7[0m[31m[1;31m"[0m[31m[0m,
+           @serializer[32m=[0m[1;34;4mActiveSupport[0m::[1;34;4mMessageEncryptor[0m::[1;34;4mNullSerializer[0m[32m>[0m[32m>[0m[32m>[0m,
+     [31m[1;31m"[0m[31mPATH_INFO[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m/admin/categories/1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31maction_dispatch.request.query_parameters[1;31m"[0m[31m[0m=>{},
+     [31m[1;31m"[0m[31mrack.request.cookie_hash[1;31m"[0m[31m[0m=>{},
+     [31m[1;31m"[0m[31maction_dispatch.request.content_type[1;31m"[0m[31m[0m=>[1;36mnil[0m,
+     [31m[1;31m"[0m[31maction_dispatch.request.request_parameters[1;31m"[0m[31m[0m=>{},
+     [31m[1;31m"[0m[31maction_dispatch.request.path_parameters[1;31m"[0m[31m[0m=>
+      {[33m:id[0m=>[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m, [33m:controller[0m=>[31m[1;31m"[0m[31madmin/categories[1;31m"[0m[31m[0m, [33m:action[0m=>[31m[1;31m"[0m[31mdestroy[1;31m"[0m[31m[0m},
+     [31m[1;31m"[0m[31maction_dispatch.request.flash_hash[1;31m"[0m[31m[0m=>
+      [32m#<ActionDispatch::Flash::FlashHash:0x00000006344b48[0m
+       @discard[32m=[0m[32m#<Set: {[0m}>,
+       @flashes[32m=[0m{[31m[1;31m"[0m[31mdanger[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mYou are not authorized to access this page.[1;31m"[0m[31m[0m},
+       @now[32m=[0m[1;36mnil[0m[32m>[0m,
+     [31m[1;31m"[0m[31maction_dispatch.request.parameters[1;31m"[0m[31m[0m=>
+      {[31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mcontroller[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31madmin/categories[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31maction[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mdestroy[1;31m"[0m[31m[0m},
+     [31m[1;31m"[0m[31maction_dispatch.request.formats[1;31m"[0m[31m[0m=>
+      [[32m#<Mime::Type:0x00000001025e08[0m
+        @string[32m=[0m[31m[1;31m"[0m[31mtext/html[1;31m"[0m[31m[0m,
+        @symbol[32m=[0m[33m:html[0m,
+        @synonyms[32m=[0m[[31m[1;31m"[0m[31mapplication/xhtml+xml[1;31m"[0m[31m[0m][32m>[0m]},
+   @filtered_env[32m=[0m[1;36mnil[0m,
+   @filtered_parameters[32m=[0m
+    {[31m[1;31m"[0m[31mid[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mcontroller[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31madmin/categories[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31maction[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mdestroy[1;31m"[0m[31m[0m},
+   @filtered_path[32m=[0m[1;36mnil[0m,
+   @formats[32m=[0m[1;36mnil[0m,
+   @fullpath[32m=[0m[31m[1;31m"[0m[31m/admin/categories/1[1;31m"[0m[31m[0m,
+   @ip[32m=[0m[1;36mnil[0m,
+   @method[32m=[0m[1;36mnil[0m,
+   @original_fullpath[32m=[0m[1;36mnil[0m,
+   @port[32m=[0m[1;34m80[0m,
+   @protocol[32m=[0m[31m[1;31m"[0m[31mhttp://[1;31m"[0m[31m[0m,
+   @remote_ip[32m=[0m[1;36mnil[0m,
+   @request_method[32m=[0m[31m[1;31m"[0m[31mDELETE[1;31m"[0m[31m[0m,
+   @set_cookies[32m=[0m{[31m[1;31m"[0m[31mrequest_method[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mDELETE[1;31m"[0m[31m[0m},
+   @uuid[32m=[0m[1;36mnil[0m[32m>[0m,
+ @sending[32m=[0m[1;36mfalse[0m,
+ @sending_file[32m=[0m[1;36mfalse[0m,
+ @sent[32m=[0m[1;36mfalse[0m,
+ @status[32m=[0m[1;34m302[0m,
+ @stream[32m=[0m
+  [32m#<ActionDispatch::Response::Buffer:0x00000006401540[0m
+   @buf[32m=[0m
+    [[31m[1;31m"[0m[31m<html><body>You are being <a href=[1;35m\"[0m[31mhttp://test.host/[1;35m\"[0m[31m>redirected</a>.</body></html>[1;31m"[0m[31m[0m],
+   @closed[32m=[0m[1;36mfalse[0m,
+   @response[32m=[0m[32m#<ActionController::TestResponse:0x00000003afacc8[0m ...[32m>[0m[32m>[0m[32m>[0m

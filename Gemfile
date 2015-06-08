@@ -18,9 +18,16 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 
-group :development do
+group :development, :test do
+  gem 'pry-byebug'
+  gem 'capybara'
+  gem 'rspec-activemodel-mocks'
+  gem 'rspec-collection_matchers'
+  gem 'shoulda-matchers'
+  gem 'database_cleaner'
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
   gem 'sqlite3'
-  gem 'byebug'
   gem 'web-console'
   gem 'spring'
 end

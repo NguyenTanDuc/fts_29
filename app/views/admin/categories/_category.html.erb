@@ -8,6 +8,6 @@
                 class: "btn btn-primary col-md-3" %>
     <%= link_to t(:link_delete), admin_category_path(category.id), remote: true, method: :delete,
                 data: {confirm: t(:delete_warning)},
-                class: "btn btn-primary col-md-3 col-md-offset-1" %>
+                class: "btn btn-primary col-md-3 col-md-offset-1", name: "destroy", id: "destroy" %>
   </td>
 </tr>

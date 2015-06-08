@@ -5,7 +5,7 @@ class Admin::CategoriesController < ApplicationController
     @categories = @categories.paginate page: params[:page], per_page: Settings.per_page
   end
 
-  def new
+  def new    
     @category = Category.new
   end
 
@@ -34,7 +34,6 @@ class Admin::CategoriesController < ApplicationController
   def destroy
     @category.destroy
     respond_to do |format|
-      format.html
       format.js
     end    
   end

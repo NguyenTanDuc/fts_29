@@ -38,7 +38,7 @@ class Exam < ActiveRecord::Base
   end
   
   private
-  def sum_correct   
+  def sum_correct
     mark = results.select do |result|
       result.answer.correct? unless result.answer.nil?
     end.count
@@ -53,8 +53,6 @@ class Exam < ActiveRecord::Base
     @questions = category.questions.random_questions category.max_question
     @questions.each {|question| results.create question: question}
   end
-
-
 
   def execute_time
     (Time.zone.now - self.start_at).to_i
