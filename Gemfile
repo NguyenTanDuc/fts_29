@@ -18,9 +18,16 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 
-group :development do
+group :development, :test do
+  gem 'cucumber'  
+  gem 'cucumber-rails', require: false
+  gem 'pry-byebug'
+  gem 'capybara'
+  gem 'shoulda-matchers'
+  gem 'database_cleaner'
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
   gem 'sqlite3'
-  gem 'byebug'
   gem 'web-console'
   gem 'spring'
 end
