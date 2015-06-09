@@ -20,7 +20,7 @@ gem 'jbuilder'
 
 group :development do
   gem 'sqlite3'
-  gem 'byebug'
+  gem 'pry-byebug'
   gem 'web-console'
   gem 'spring'
 end

@@ -6,20 +6,20 @@ class Admin::QuestionsController < ApplicationController
   end
 
   def new
-    @question = Question.new
+    @answer_form = AnswerForm.new
     @categories = Category.all
-    Settings.answer_num.times {@question.answers.build}
+    # Settings.answer_num.times {@question.answers.build}
   end
 
   def create
-    @question = Question.new question_params
-    if @question.save
+    @answer_form = AnswerForm.new answer_form_params
+    if @answer_form.new_question
       flash[:success] = t :create_sucess
       redirect_to admin_questions_path
     else
       @categories = Category.all
       render :new
-    end
+    end    
   end
 
   def edit
@@ -46,8 +46,7 @@ class Admin::QuestionsController < ApplicationController
   end
 
   private
-  def question_params
-    params.require(:question).permit :content, :category_id,
-                                      answers_attributes: [:id, :content, :correct, :_destroy]
+  def answer_form_params
+    params.require(:answer_form).permit :content, :category_id, :answer_content, :correct
   end
 end
